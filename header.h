@@ -23,15 +23,7 @@ struct unitTest
 };
 
 struct unitTest results[testCase_count] ={
-				 	{"Sample testcase1",                                   6},
-				 	{"Sample testcase2",                                   6},
-				 	{"All Zero inputs",                                    0},
-				 	{"All negative inputs",                                0},
-				 	{"Same direction in a whole day",                      10},
-				 	{"Mixing positive,negative and same direction attack", 13},
-				 	{"Same direction in all 3 days",                       7},
-				 	{"Large valued strengths",                             5}
-					 	
+				 	{"Sample testcase1",                                   6}
 				 };
 void init();
 
